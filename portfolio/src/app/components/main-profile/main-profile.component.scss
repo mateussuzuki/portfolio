@@ -17,12 +17,12 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-
+  
 }
 
 .pictureProfileInfo {
-  height: 80vh;
-  width: 320px;
+  height: 65vh;
+  width: 360px;
   border-radius: 5px;
   background-color: #FFFBF5;
   display: flex;
@@ -39,6 +39,10 @@
   width: 28px;
 }
 
+.btn:hover {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 42%, rgba(117,88,180,1) 93%);
+}
+
 .iconContact {
   width: 30px;
   background-color: #FFFBF5;
@@ -52,4 +56,14 @@
   padding-top: 12px;
   margin-top: 8px;
   border-top: 2px solid rgba(77, 65, 65, 0.103);
+}
+
+.btnCV {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 42%, rgba(117,88,180,1) 93%);
+  width: 180px;
+}
+
+.iconCV {
+  width: 30px;
+  padding: 5px;
 }
