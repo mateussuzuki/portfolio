@@ -11,6 +11,7 @@
   height: 92vh;
   border-radius: 5px;
   background-color: #FFFBF5;
+  margin-left: 10px;
 }
 
 .nav-link {
@@ -22,4 +23,24 @@
 
 .tab-pane {
   padding: 50px;
+}
+
+.iconTecno {
+  width: 50px;
+}
+
+@media(max-width: 992px) {
+  .tabContent {
+    margin: auto;
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .tabContent {
+    margin-left: 0;
+  }
+
 }
