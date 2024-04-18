@@ -1,6 +1,34 @@
-<div class="container d-flex">
+<div class="container d-flex justify-content-center">
   <div class="containerInfo">
-    <div class="tabContent ">
+    <div class="d-flex align-items-center backgroundGray">
+      <div class="nav nav-pills" id="v-pills-tab" role="tablist">
+        <button
+          class="nav-link active"
+          id="homeTab"
+          data-bs-toggle="pill"
+          data-bs-target="#about"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-home"
+          aria-selected="true"
+        >
+          <span class="black fw-semibold">Sobre</span>
+        </button>
+        <button
+          class="nav-link"
+          id="projectTab"
+          data-bs-toggle="pill"
+          data-bs-target="#project"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-profile"
+          aria-selected="false"
+        >
+          <span class="black fw-semibold">Projetos</span>
+        </button>
+      </div>
+    </div>
+    <div class="tabContent">
       <div class="tab-content" id="v-pills-tabContent">
         <div
           class="tab-pane fade show active"
@@ -10,33 +38,13 @@
           tabindex="0"
         >
           <h1>Sobre</h1>
-          <p>Olá, me chamo Mateus Suzuki e estudo programação a um ano e meio, já realizei alguns projetos pequenos, mas recentemente estou aplicando todo meu aprendizado em projetos maiores e com mais funções.</p>
+          <p>
+            Olá, me chamo Mateus Suzuki e estudo programação a um ano e meio, já
+            realizei alguns projetos pequenos, mas recentemente estou aplicando
+            todo meu aprendizado em projetos maiores e com mais funções.
+          </p>
           <h3>Tecnologias:</h3>
-          <div class="row">
-            <div class="col-6">
-              <div class="row">
-                <div class="col-2">
-                  <img src="../../../assets/svgs/angular.svg" alt="" class="iconTecno">
-                </div>
-                <div class="col-10">
-                  <h2>Angular</h2>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="row">
-                <div class="col-2">
-                  <img src="../../../assets/svgs/js.svg" alt="" class="iconTecno">
-                </div>
-                <div class="col-10">
-                  <h2>JavaScript</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            
-          </div>
+          <app-tec class="row" />
         </div>
         <div
           class="tab-pane fade"
@@ -48,39 +56,6 @@
           ...
         </div>
       </div>
-    </div>
-  </div>
-  <div class="d-flex align-items-center ms-4">
-    <div
-      class="nav flex-column nav-pills me-3"
-      id="v-pills-tab"
-      role="tablist"
-      aria-orientation="vertical"
-    >
-      <button
-        class="nav-link active"
-        id="homeTab"
-        data-bs-toggle="pill"
-        data-bs-target="#about"
-        type="button"
-        role="tab"
-        aria-controls="v-pills-home"
-        aria-selected="true"
-      >
-        Sobre
-      </button>
-      <button
-        class="nav-link"
-        id="projectTab"
-        data-bs-toggle="pill"
-        data-bs-target="#project"
-        type="button"
-        role="tab"
-        aria-controls="v-pills-profile"
-        aria-selected="false"
-      >
-        Projetos
-      </button>
     </div>
   </div>
 </div>

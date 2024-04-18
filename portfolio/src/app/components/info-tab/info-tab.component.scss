@@ -2,8 +2,13 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
+}
+
+.nav-pills {
+  background-color: #FFFBF5;
+  border-radius: 6px;
 }
 
 .tabContent {
@@ -12,6 +17,10 @@
   border-radius: 5px;
   background-color: #FFFBF5;
   margin-left: 10px;
+}
+
+.black {
+  color: black;
 }
 
 .nav-link {
@@ -23,10 +32,6 @@
 
 .tab-pane {
   padding: 50px;
-}
-
-.iconTecno {
-  width: 50px;
 }
 
 @media(max-width: 992px) {

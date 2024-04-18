@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainProfileComponent } from './components/main-profile/main-profile.component';
 import { InfoTabComponent } from './components/info-tab/info-tab.component';
+import { TecComponent } from './components/tec/tec.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainProfileComponent,
-    InfoTabComponent
+    InfoTabComponent,
+    TecComponent
   ],
   imports: [
     BrowserModule,
