@@ -34,6 +34,12 @@
   padding: 50px;
 }
 
+hr {
+  box-sizing:border-box;
+  width: 50%;  
+  border: 1px solid #48116d;
+}
+
 @media(max-width: 992px) {
   .tabContent {
     margin: auto;

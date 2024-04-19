@@ -3,7 +3,7 @@
     <div class="d-flex align-items-center backgroundGray">
       <div class="nav nav-pills" id="v-pills-tab" role="tablist">
         <button
-          class="nav-link active"
+          class="nav-link"
           id="homeTab"
           data-bs-toggle="pill"
           data-bs-target="#about"
@@ -13,9 +13,10 @@
           aria-selected="true"
         >
           <span class="black fw-semibold">Sobre</span>
+          
         </button>
         <button
-          class="nav-link"
+          class="nav-link active"
           id="projectTab"
           data-bs-toggle="pill"
           data-bs-target="#project"
@@ -31,29 +32,34 @@
     <div class="tabContent">
       <div class="tab-content" id="v-pills-tabContent">
         <div
-          class="tab-pane fade show active"
+          class="tab-pane fade "
           id="about"
           role="tabpanel"
           aria-labelledby="homeTab"
           tabindex="0"
         >
           <h1>Sobre</h1>
+          <hr>
           <p>
             Olá, me chamo Mateus Suzuki e estudo programação a um ano e meio, já
             realizei alguns projetos pequenos, mas recentemente estou aplicando
             todo meu aprendizado em projetos maiores e com mais funções.
           </p>
-          <h3>Tecnologias:</h3>
+          <h4>Tecnologias</h4>
           <app-tec class="row justify-content-center" />
         </div>
         <div
-          class="tab-pane fade"
+          class="tab-pane fade show active"
           id="project"
           role="tabpanel"
           aria-labelledby="projectTab"
           tabindex="0"
         >
-          ...
+          <div class="line">
+            <h1>Projetos</h1>
+            <hr>
+          </div>
+          <app-projects/>
         </div>
       </div>
     </div>

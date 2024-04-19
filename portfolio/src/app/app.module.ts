@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MainProfileComponent } from './components/main-profile/main-profile.component';
 import { InfoTabComponent } from './components/info-tab/info-tab.component';
 import { TecComponent } from './components/tec/tec.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainProfileComponent,
     InfoTabComponent,
-    TecComponent
+    TecComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
