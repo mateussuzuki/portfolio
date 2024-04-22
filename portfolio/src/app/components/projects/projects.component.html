@@ -1,10 +1,18 @@
-<div class="row justify-content-center">
-  <div class="col-5 mx-3 back">
-    <img src="../../../assets/image/projetoValorant.jpg" alt="" class="img" />
-    <h5 class="fw-semibold">Projeto Valorant</h5>
-    <p>
-      Esse projeto foi feito uma wiki do jogo Valorant consumindo uma API
-      externa da própria empresa, nele utilizei o Angular e Boostrap
-    </p>
+
+  <div class="col-5 my-2 mx-3 {{ project.class }}" *ngFor="let project of projects.projects">
+    <div class="row">
+      <div class="d-flex justify-content-center">
+        <img src="../../../assets/image/projetoValorant.jpg" alt="" class="img" />
+      </div>
+      <h5 class="fw-semibold px-2">{{ project.title }}</h5>
+      <p class="px-2 mb-0">
+        {{ project.description }}
+      </p>
+      <div class="d-flex justify-content-end">
+        <button class="btn">
+          Ver Projeto
+        </button>
+      </div>
+    </div>
   </div>
-</div>
+

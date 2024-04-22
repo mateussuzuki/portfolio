@@ -1,5 +1,5 @@
 .containerInfo {
-  height: 100vh;
+  min-height: 130vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -13,7 +13,7 @@
 
 .tabContent {
   width: 800px;
-  height: 92vh;
+  min-height: 110vh;
   border-radius: 5px;
   background-color: #FFFBF5;
   margin-left: 10px;

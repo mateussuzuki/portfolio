@@ -1,4 +1,4 @@
-<div class="col-5 my-2 mx-3 back" *ngFor="let tecno of tecnos.tecnos">
+<div class="col-5 my-2 mx-3 {{ tecno.class }}" *ngFor="let tecno of tecnos.tecnos">
   <div class="row">
     <div class="col-12 col-md-3">
       <img src="{{ tecno.img }}" alt="" class="iconTecno" />
