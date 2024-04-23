@@ -1,22 +1,21 @@
 <div class="container d-flex justify-content-center">
   <div class="containerInfo">
-    <div class="d-flex align-items-center">
-      <div class="nav nav-pills" id="v-pills-tab" role="tablist">
+    <div class="tabContent">
+      <div class="nav col-12 justify-content-center" id="v-pills-tab" role="tablist">
         <button
-          class="nav-link"
-          id="homeTab"
-          data-bs-toggle="pill"
-          data-bs-target="#about"
-          type="button"
-          role="tab"
-          aria-controls="v-pills-home"
-          aria-selected="true"
+        class="nav-link col-3 mx-5 py-3"
+        id="homeTab"
+        data-bs-toggle="pill"
+        data-bs-target="#about"
+        type="button"
+        role="tab"
+        aria-controls="v-pills-home"
+        aria-selected="true"
         >
-          <span class="black fw-semibold">Sobre</span>
-          
-        </button>
+        <span class="black fs-4">Sobre</span>
+      </button>
         <button
-          class="nav-link active"
+          class="nav-link active col-3 mx-5 py-3"
           id="projectTab"
           data-bs-toggle="pill"
           data-bs-target="#project"
@@ -25,21 +24,19 @@
           aria-controls="v-pills-profile"
           aria-selected="false"
         >
-          <span class="black fw-semibold">Projetos</span>
+          <span class="black fs-4">Projetos</span>
         </button>
       </div>
-    </div>
-    <div class="tabContent">
       <div class="tab-content" id="v-pills-tabContent">
         <div
-          class="tab-pane fade "
+          class="tab-pane fade"
           id="about"
           role="tabpanel"
           aria-labelledby="homeTab"
           tabindex="0"
         >
-          <h1>Sobre</h1>
-          <hr>
+          <!-- <h1>Sobre</h1> -->
+          <!-- <hr /> -->
           <p>
             Olá, me chamo Mateus Suzuki e estudo programação a um ano e meio, já
             realizei alguns projetos pequenos, mas recentemente estou aplicando
@@ -57,10 +54,10 @@
           tabindex="0"
         >
           <div class="line">
-            <h1>Projetos</h1>
-            <hr>
+            <!-- <h1>Projetos</h1> -->
+            <!-- <hr /> -->
           </div>
-          <app-projects class="row justify-content-center"/>
+          <app-projects class="row justify-content-center" />
         </div>
       </div>
     </div>

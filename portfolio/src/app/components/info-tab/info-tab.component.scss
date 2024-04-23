@@ -6,9 +6,14 @@
   flex-direction: column;
 }
 
-.nav-pills {
-  background-color: #FFFBF5;
-  border-radius: 6px;
+// .nav-pills {
+//   background-color: #FFFBF5;
+//   justify-content: center;
+//   width: 100%;
+// }
+
+.nav {
+  border-bottom: 1px solid #6f5a7e6c;
 }
 
 .tabContent {
@@ -19,14 +24,18 @@
   margin-left: 10px;
 }
 
-.black {
-  color: black;
+
+
+.black:active {
+  color: #48116d;
+  
 }
 
 .nav-link {
-  color: white;
+  color: rgb(0, 0, 0);
   &.active {
-    background: linear-gradient(90deg, rgba(131,58,180,1) 42%, rgba(117,88,180,1) 93%);
+    border-bottom: 2px solid #48116d;
+    color: #48116d;
   }
 }
 
@@ -36,7 +45,7 @@
 
 hr {
   box-sizing:border-box;
-  width: 50%;  
+  width: 100%;  
   border: 1px solid #48116d;
 }
 
