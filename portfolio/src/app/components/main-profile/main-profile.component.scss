@@ -1,73 +1,28 @@
 
-.containerProfile {
-  min-height: 110vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-}
-
-.containerPictureProfile {
-  width: 180px;
-  height: 160px;
-  margin-top: -90px;
-}
-
-.pictureProfile {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  
-}
-
-.pictureProfileInfo {
-  width: 360px;
-  border-radius: 5px;
+.container {
   background-color: #FFFBF5;
-  display: flex;
-  justify-content: center;
-
+  width: 380px;
   position: -webkit-sticky;
   position: sticky;
-  top: 200px;
+  top: 96px;
+  border-radius: 5px;
 }
 
-.backgroundGray {
-  background-color: rgba(82, 92, 119, 0.226);
-  padding: 5px;
-  border-radius: 10px;
+.profilePicture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #8239B3;
 }
 
-.socialIcon {
-  width: 28px;
-}
-
-.btn:hover {
-  background: linear-gradient(90deg, rgba(131,58,180,1) 42%, rgba(117,88,180,1) 93%);
+.backgroundPurple {
+  background-color: #8239B3;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
 }
 
 .iconContact {
-  width: 30px;
-  background-color: #FFFBF5;
-  padding: 5px;
-  margin-right: 6px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-.line {
-  padding-top: 12px;
-  margin-top: 8px;
-  border-top: 2px solid rgba(77, 65, 65, 0.103);
-}
-
-.btnCV {
-  background: linear-gradient(90deg, rgba(131,58,180,1) 42%, rgba(117,88,180,1) 93%);
-  width: 180px;
-  color: white;
-}
-
-.iconCV {
-  width: 30px;
-  padding: 5px;
+  width: 26px;
 }
