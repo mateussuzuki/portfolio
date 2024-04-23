@@ -1,18 +1,20 @@
-
-  <div class="col-5 my-2 mx-3 {{ project.class }}" *ngFor="let project of projects.projects">
-    <div class="row">
-      <div class="d-flex justify-content-center">
-        <img src="../../../assets/image/projetoValorant.jpg" alt="" class="img" />
-      </div>
+<div
+  class="col-8 col-lg-5 my-2 mx-3 {{ project.class }}"
+  *ngFor="let project of projects.projects"
+>
+  <div class="row back">
+    <div class="d-flex justify-content-center">
+      <img src="{{ project.img }}" alt="" class="img" />
+    </div>
+    <div>
       <h5 class="fw-semibold px-2">{{ project.title }}</h5>
       <p class="px-2 mb-0">
         {{ project.description }}
       </p>
-      <div class="d-flex justify-content-end">
-        <button class="btn">
-          Ver Projeto
-        </button>
-      </div>
     </div>
+    <div class="d-flex justify-content-end">
+      <button class="btn">Ver Projeto</button>
+    </div>
+    
   </div>
-
+</div>
