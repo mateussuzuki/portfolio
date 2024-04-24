@@ -26,3 +26,40 @@
 .iconContact {
   width: 26px;
 }
+
+@keyframes animacaoCopy {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.mensagem-copy {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  animation: animacaoCopy 1s ease-out;
+}
+
+#number-copy {
+  left: 52%;
+}
+
+#email-copy {
+  left: 82%;
+}
+
+#location-copy {
+  left: 66%;
+}
