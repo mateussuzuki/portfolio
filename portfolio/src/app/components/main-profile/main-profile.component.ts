@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './main-profile.component.scss'
 })
 export class MainProfileComponent {
-
+  copyText(id: string) {
+    const text = document.getElementById(id)?.textContent;
+    if (text) {
+      navigator.clipboard.writeText(text)
+    }
+  }
 }

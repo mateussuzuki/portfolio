@@ -6,7 +6,7 @@ export class Tecnos {
     {img: "../../../assets/svgs/js.svg", title: "JavaScript", class:"backBlue"},
     {img: "../../../assets/svgs/typeScript.svg", title: "TypeScript", class:"backBlue"},
     {img: "../../../assets/svgs/bootstrap.svg", title: "Bootstrap", class:"backPurple"},
-    {img: "../../../assets/svgs/git.svg", title: "Git", class:"backPurple"},
+    {img: "../../../assets/svgs/gitProject.svg", title: "Git", class:"backPurple"},
     {img: "../../../assets/svgs/mysql.svg", title: "MySql", class:"backBlue"},
   ]
 }
