@@ -54,6 +54,19 @@ export class MainProfileComponent {
       mensagemCopy.style.display = 'none';
     }
   }
+
+  downloadPDF() {
+    const pdf = '../../../assets/pdfs/CV.pdf'
+    const file = 'Mateus_Suzuki_CV.pdf'
+
+    const link = document.createElement('a');
+    link.href = pdf;
+    link.download = file;
+
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
  
 }
 

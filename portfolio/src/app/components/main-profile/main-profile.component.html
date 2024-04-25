@@ -9,34 +9,49 @@
     </div>
     <h2 class="text-center mt-3">Mateus Suzuki</h2>
     <div class="d-flex justify-content-center">
-      <p class="backgroundPurple">Desenvolvedor FullStack</p>
+      <p class="backgroundPurple p-1 px-3">Desenvolvedor FullStack</p>
     </div>
     <div>
       <p class="fw-semibold my-1 ps-0">Redes Sociais:</p>
-      <button class="backgroundPurple d-flex col-auto my-2">
+      <a
+        href="https://www.instagram.com/math.suza/"
+        target="_blank"
+        class="backgroundPurple d-flex col-6 my-2 text-decoration-none"
+      >
         <img
           src="../../../assets/svgs/ig.svg"
           alt=""
-          class="iconContact ms-1"
+          class="iconContact"
         />
-        <p class="m-0 mx-3">Instagram</p>
-      </button>
-      <button class="backgroundPurple d-flex col-auto my-2">
+        <p class="m-0 mx-3 me-2">Instagram</p>
+        <img src="../../../assets/svgs/arrow.svg" alt="" class="iconContact">
+      </a>
+      <a
+        href="https://github.com/mateussuzuki"
+        target="_blank"
+        class="backgroundPurple d-flex col-5 my-2 text-decoration-none"
+      >
         <img
           src="../../../assets/svgs/git.svg"
           alt=""
           class="iconContact ms-1"
         />
-        <p class="m-0 mx-3">Github</p>
-      </button>
-      <button class="backgroundPurple d-flex col-auto my-2">
+        <p class="m-0 mx-3 me-2">Github</p>
+        <img src="../../../assets/svgs/arrow.svg" alt="" class="iconContact">
+      </a>
+      <a
+        href="https://www.linkedin.com/in/mateus-suzuki-a80b91205/"
+        target="_blank"
+        class="backgroundPurple d-flex col-6 my-2 text-decoration-none"
+      >
         <img
           src="../../../assets/svgs/linkedin.svg"
           alt=""
           class="iconContact ms-1"
         />
         <p class="m-0 mx-3">Linkedin</p>
-      </button>
+        <img src="../../../assets/svgs/arrow.svg" alt="" class="iconContact">
+      </a>
     </div>
 
     <div>
@@ -80,7 +95,7 @@
     </div>
 
     <div class="d-flex justify-content-center mt-5 mb-3">
-      <button class="col-8 backgroundPurple p-2">
+      <button class="col-8 backgroundPurple p-2" (click)="downloadPDF()">
         <img
           src="../../../assets/svgs/download.svg"
           alt=""
