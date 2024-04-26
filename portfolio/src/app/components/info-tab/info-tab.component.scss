@@ -6,8 +6,28 @@
   margin-top: 10%;
 }
 
+.tab-pane.fade {
+  transition: all 0.3s;
+  transform: translateY(5rem);
+}
+
+.tab-pane.fade.show {
+  animation: opacShow 0.3s;
+  transform: translateY(0rem);
+}
+
 .nav {
   border-bottom: 1px solid #6f5a7e6c;
+}
+
+@keyframes opacShow {
+  from {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
 }
 
 .tabContent {
@@ -32,6 +52,7 @@
     color: #48116d;
   }
 }
+
 
 .tab-pane {
   padding: 50px;
