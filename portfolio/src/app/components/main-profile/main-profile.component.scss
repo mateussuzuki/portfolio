@@ -8,6 +8,7 @@
   border-radius: 5px;
 }
 
+
 .profilePicture {
   width: 180px;
   height: 180px;
@@ -18,13 +19,17 @@
 .backgroundPurple {
   background-color: #8239B3;
   color: white;
-  padding: 6px;
+  padding: 4px;
   border-radius: 5px;
   border: none;
 }
 
+#contact {
+  padding: 3px;
+}
+
 .iconContact {
-  width: 18px;
+  width: 16px;
 }
 
 @keyframes animacaoCopy {
@@ -52,6 +57,7 @@
   animation: animacaoCopy 1s ease-out;
 }
 
+
 #number-copy {
   left: 52%;
 }
@@ -62,4 +68,8 @@
 
 #location-copy {
   left: 66%;
+}
+
+p {
+  font-size: 0.8em;
 }

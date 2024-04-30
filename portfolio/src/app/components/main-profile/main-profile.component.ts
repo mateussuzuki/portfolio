@@ -56,7 +56,7 @@ export class MainProfileComponent {
   }
 
   downloadPDF() {
-    const pdf = './assets/pdfs/CV.pdf'
+    const pdf = '../../../assets/pdfs/CV.pdf'
     const file = 'Mateus_Suzuki_CV.pdf'
 
     const link = document.createElement('a');
